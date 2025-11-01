@@ -316,6 +316,7 @@ dependencies = [
     { name = "numpy" },
     { name = "openai" },
     { name = "pandas" },
+    { name = "pydantic" },
     { name = "python-dotenv" },
     { name = "torch" },
 ]
@@ -334,6 +335,7 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.3.4" },
     { name = "openai", specifier = ">=2.5.0" },
     { name = "pandas", specifier = ">=2.3.3" },
+    { name = "pydantic", specifier = ">=2.12.3" },
     { name = "python-dotenv", specifier = ">=1.1.1" },
     { name = "torch", specifier = "==2.2.2" },
 ]
